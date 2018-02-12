@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+a {
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+.head {
+    background-color: rgb(255, 255, 255);
+    height: 85px;
+    border-bottom: 2px solid #CCCCCC;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 980px;
+    margin: auto;
+}
+
+.teal {
+    background-color: #49AAA5;
+    height: 85px;
+    width: 250px;
+    float: left;
+}
+
+.me {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.wrap {
+    float: left;
+    margin-left: 435px;
+    margin-top: 13px;
+}
+
+.blue {
+    width: 60px;
+    float: left;
+    margin-right: 30px;
+    color: #9E9E9E;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    border-right: #9E9E9E solid 1px;  
+    height: 21px;
+}
+
+.yellow {
+    border-right: #9E9E9E solid 1px;  
+    height: 21px;
+    width: 85px;
+    float: left;
+    margin-right: 30px;
+    color: #9E9E9E;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.orange {
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin-right: 30px;
+    color: #9E9E9E;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.holder {
+    width: 980px;
+    margin: auto;
+}
+
+.eighty {
+    width: 960px;
+    margin: auto;
+}
+
+.about {
+    margin-top: 125px;
+    height: 560px;
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+    border: 1.4px solid #CCCCCC;
+    float: left;
+    color: #49AAA5;
+    font-size: 25px;
+}
+
+.connect {
+    margin-top: 125px;
+    height: 200px;
+    width: 270px;
+    background-color: rgb(255, 255, 255);
+    border: 1.4px solid #CCCCCC;
+    float: left;
+    margin-left: 677px;
+    position: fixed;
+}
+
+.contact {
+    margin-top: 107px;
+    height: 590px;
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+    border: 1.4px solid #CCCCCC;
+    float: left;
+}
+
+.light {
+    margin-top: 125px;
+    height: 950px;
+    width: 650px;
+    background-color: rgb(255, 255, 255);
+    border: 1.4px solid #CCCCCC;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.git {
+    height: 70px;
+    width: 70px;
+    /* background-color: chocolate; */
+    float: left;
+    margin-top: 17px;
+    margin-left: -25px;
+    /* margin-left: 10px; */
+}
+
+.linked {
+    height: 70px;
+    width: 70px;
+    /* background-color: rgb(87, 210, 30); */
+    float: left;
+    margin-top: 21px;
+    margin-left: 3px;
+    /* margin-left: 10px; */
+}
+
+.stack {
+    height: 70px;
+    width: 70px;
+    /* background-color: rgb(30, 57, 210); */
+    float: left;
+    margin-top: 21px;
+    /* margin-left: 10px; */
+}
+
+.side {
+    margin-left: 20px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #656565;
+    border-top: 7px solid #49AAA5;
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.abtme {
+    color: #49AAA5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin: 35px;
+    margin-bottom: 30px;
+    height: 60px;
+    border-bottom: 3px solid #DDDDDD;
+    /* margin-top: 30px;
+    margin-left: 30px; */
+}
+
+img {
+    float: left;
+    margin-left: 35px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+.lorem {
+    margin-left: 35px;
+    font-size: 20px;
+    margin-right: 35px;
+    line-height: 30px;
+    color: #7A7C7B    
+}
+
+.formsize {
+    margin-left: 40px;
+}
+
+.pic {
+    margin-bottom: 6px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #49AAA5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.containerclass {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+.connectme {
+    color: #49AAA5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 30px;
+    height: 50px;
+    border-bottom: 2px solid #DDDDDD;
+    /* background-color: antiquewhite; */
+    width: 200px;
+    margin-left: 30px;
+    
+}
+
+.portfolioone {
+    width: 200px;
+    float: left;
+    
+}
+
+.portfoliotwo {
+    width: 265px;
+    float: left;
+    margin-left: 100px;
+}
+
+/* .layerone {
+    margin-left: 40px;
+} */
+
+ .portfoliothree {
+    width: 265px;
+    height: 200px; 
+    float: left;
+    margin-top: 40px;
+    margin-right: 31px;
+} 
+ 
+.portfoliofour {
+    width: 265px;
+    height: 200px; 
+    float: left;
+    margin-top: 40px;
+
+}
+
+.portfoliofive {
+    width: 265px;
+    height: 200px; 
+    margin-top: 40px;
+    float: left;
+}
+
+.titleone {
+    background-color: #49AAA5;
+    height: 60px;
+    width: 250px;
+    position: relative;
+    margin-left: 35px;
+    margin-top: 130px;
+    clear: both;
+}
+
+h2 {
+    margin-bottom: 100px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(192, 191, 191);
+    margin-top: 40px;
+}
+
+.movie {
+    background-color: #49AAA5;
+    height: 100px;
+    margin-left: 200px;
+    z-index: auto;
+}
+
+
+/*PORTFOLIO ITEMS*/ 
+/*ONE*/
+
+.floatone {
+    float: left;
+}
+
+.boxone {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.captionone {
+    position: absolute;
+    top: 160px;
+    right: -110px;
+    width: 275px;
+    height: 55px;
+    background-color: #49AAA5;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.yuhone {
+    width: 275px;
+    height: 225px;
+}
+
+
+/*TWO*/
+
+
+.floattwo {
+    float: left;
+    margin-left: 103px;
+}
+
+.boxtwo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.captiontwo {
+    position: absolute;
+    top: 160px;
+    right: -110px;
+    width: 275px;
+    height: 55px;
+    background-color: #49AAA5;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.yuhtwo {
+    width: 275px;
+    height: 225px;
+}
+
+/*THREE*/
+
+.floatthree {
+    float: left;
+    margin-top: 40px;
+}
+
+.boxthree {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.captionthree {
+    position: absolute;
+    top: 160px;
+    right: -110px;
+    width: 275px;
+    height: 55px;
+    background-color: #49AAA5;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.yuhthree {
+    width: 275px;
+    height: 225px;
+}
+
+
+/*FOUR*/
+
+.floatfour {
+    float: left;
+    margin-top: 40px;
+    margin-left: 103px;
+}
+
+.boxfour {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.captionfour {
+    position: absolute;
+    top: 160px;
+    right: -110px;
+    width: 275px;
+    height: 55px;
+    background-color: #49AAA5;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.yuhfour {
+    width: 275px;
+    height: 225px;
+}
+
+
+
+/*FIVE*/
+
+.floatfive {
+    float: left;
+    margin-top: 40px;
+}
+
+.boxfive {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.captionfive {
+    position: absolute;
+    top: 160px;
+    right: -110px;
+    width: 275px;
+    height: 55px;
+    background-color: #49AAA5;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15px;
+}
+
+.yuhfive {
+    width: 275px;
+    height: 225px;
+}
+
+
+
+/* MEDIA QUERY HERE
+
+Instructions + screenshots here
+
+http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository-FSF/blob/master/01-Class-Content/02-css-bootstrap/02-Homework/Instructions/homework-instructions.md
+
+*/
+
+@media screen and (max-width: 980px) {
+
+    .wrapper {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .holder {
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    /*need to make sure this satisfies 
+
+    index
+
+    portfolio
+
+    contact pages 
+    
+    
+    */
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+   /*need to make sure this satisfies 
+
+    index
+
+    portfolio
+
+    contact pages 
+    
+    
+    */
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+    /*this one has the most customization i think*/ 
+
+
+    /*need to make sure this satisfies 
+
+    index
+
+    portfolio
+
+    contact pages 
+    
+    
+    */
+
+
+}
+
+

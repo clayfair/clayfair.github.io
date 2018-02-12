@@ -9,9 +9,10 @@
     <title>Document</title>
 </head>
 
-<!-- THE HEADER -->
 
 <body background="small_steps.png">
+
+    <!-- THE HEADER. STILL NEED TO MAKE NAV BAR LINKS CLICKABLE -->
     <section class="toptop"> </section>
     <!--top bar-->
     <header class="head">
@@ -35,7 +36,7 @@
         </section>
     </header>
 
-    <!-- CONNECT-->
+    <!-- CONNECT STILL NEED TO MAKE GIT, LINKEDIN, STACK CLICKABLE ICONS-->
     <section class="eighty">
         <section class="connect">
             <h1 class="connectme">Connect with Me</h1>
@@ -61,29 +62,34 @@
     </section>
     </section>
 
-
-    <!-- INDEX.HTML -->
+    CONTACT.HTML -->
     <section class="holder">
-        <section class="row-one">
-            <section class="about">
-                <h1 class="abtme">About Me</h1>
-                <img class="pic" src="clayclay.jpg" alt="Clay" width="175px" height="175px">
-                <p class="lorem">HI, I’m Clay! I’m an aspiring fullstack product designer and coding n00b, studying HTML5, CSS3, JavaScript,
-                    jQuery, Java, Bootstrap, Express.js, React.js, Node.js, Database Theory, Bookshelf.js, MongoDB, MySQL
-                    and Framer.JS. My goal is to work for Google, Facebook, Airbnb, Uber, DropBox, Spotify or Apple on their
-                    UI/UX Design Team by September 2019.
-                </p>
-                <br>
-                <p class="lorem">
-                    I want to learn how to code because I want to be able to build my own personal portfolio website for hire (you're reading
-                    the first draft!). I also want to be able to rapidly prototype fully functional design mockups that display
-                    user interactions.</p>
-            </section>
+        <section class="contact">
+            <h1 class="abtme">Contact</h1>
+            <div class="containerclass">
+                <form action="/action_page.php">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="John Smith">
 
-            <!-- Footer, not sticky -->
-            <footer class="footer">
-                <p class="copyright">@Copyright 2018 Clay Fairbanks</p>
-            </footer>
+                    <label for="lname">Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+
+
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="" style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+        </section>
+    </section>
+
+    <!-- Footer, not sticky -->
+    <footer class="footer">
+        <p class="copyright">@Copyright 2018 Clay Fairbanks</p>
+    </footer>
+
 
 </body>
 
