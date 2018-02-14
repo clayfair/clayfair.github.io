@@ -10,16 +10,17 @@ a {
 }
 
 .head {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     height: 85px;
     border-bottom: 2px solid #CCCCCC;
-    position: fixed; 
+    position: fixed;
+    z-index: 3;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
     margin: 0 auto;
-}
+} 
 
 .wrapper {
     width: 980px;
@@ -341,6 +342,7 @@ h2 {
 
 .boxone {
     position: relative;
+    z-index: 2;
     width: 200px;
     height: 200px;
 }
@@ -508,6 +510,160 @@ http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository
 
 */
 
+@media screen and (max-width: 640px) {
+
+    /* up to 640px, the INDEX screen will look like this: */
+
+    .head {
+        background-color:#49AAA5;
+        height: 85px;
+        border-bottom: 2px solid #CCCCCC;
+        position: fixed; 
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+
+    .teal {
+        background-color: #49AAA5;
+        /*if the box has 100% width then I can align the text in the center*/
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .me {
+        color: white;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 28px;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+
+    .wrap {
+        width: 100%;
+        background-color: #ffffff;
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+        padding-left: 100px;
+        position: relative;
+        height: 60px;
+        border-bottom: 2px solid #CCCCCC; 
+    }
+
+    .blue {
+        position: relative;
+        left: 0px;
+        top: 3px;
+        width: 130px;
+        text-align: left;
+    }
+
+
+    .yellow {
+        position: relative;
+        left: 50px;
+        top: 3px;
+        width: 130px;
+        text-align: left;
+    }
+
+    .orange {
+        position: relative;
+        left: 90px;
+        top: 3px;
+
+    }
+
+    .about {
+        margin-top: 170px;
+        width: 550px;
+        height: 1010px;
+        margin-left: 50px;
+    }
+
+    .pic {
+        height: 450px;
+        width: 480px;
+        margin-bottom: 25px;
+    }
+
+    .lorem {
+        clear: both;
+    }
+
+    .footer {
+        
+    }
+   
+    .connect {
+        margin-left: 50px;
+        margin-top: 53px;
+        margin-bottom: 150px;
+        position: static;
+        /* float: none; */
+        height: 200px;
+        width: 550px;
+        background-color: rgb(255, 255, 255);
+        border: 1.4px solid #CCCCCC;
+    }
+
+    .connectme {
+        text-align: left;
+        height: 40px;
+        border-bottom: 2px solid #DDDDDD;
+        width: 490px;
+    }
+
+
+    /*    up to 640px, the CONTACT screen will look like this: */
+
+    
+
+
+
+
+
+
+
+    /*    until we hit 640px, the PORTFOLIO screen will look like this: */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /*need to make sure this satisfies 
+ 
+     index
+ 
+     portfolio
+ 
+     contact pages 
+     
+     
+     */
+ 
+ 
+ } 
+
+
 @media screen and (max-width: 980px) {
 
     .wrapper {
@@ -519,6 +675,8 @@ http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository
         width: 700px;
         margin: 0 auto;
     }
+
+   
     
     /*need to make sure this satisfies 
 
@@ -534,39 +692,5 @@ http://upenn.bootcampcontent.com/upenn-bootcamp/UPENN201801FSF4-Class-Repository
 }
 
 
-@media screen and (max-width: 768px) {
-
-   /*need to make sure this satisfies 
-
-    index
-
-    portfolio
-
-    contact pages 
-    
-    
-    */
-
-
-}
-
-@media screen and (max-width: 640px) {
-
-    /*this one has the most customization i think*/ 
-
-
-    /*need to make sure this satisfies 
-
-    index
-
-    portfolio
-
-    contact pages 
-    
-    
-    */
-
-
-}
 
 
